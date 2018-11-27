@@ -7,7 +7,7 @@ node {
       cleanWs()
       git(
            url: "${REPONAME}",
-           credentialsId: 'githubsshkey',
+           credentialsId: 'username-password-github-automation-dft-bluebadge',
            branch: "${BRANCH_NAME}"
         )
      }
